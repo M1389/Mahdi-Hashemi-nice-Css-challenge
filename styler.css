@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+html{
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.main-container{
+    
+    
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    min-height: 1000px;
+}
+
+
+.left-design{
+    width: 50%;
+    
+    margin-left: -50px;
+    z-index: -3;
+}
+
+
+
+.purple-nice{
+    width: 100%;
+    background-image: linear-gradient( hsl(293, 100%, 63%) , hsl(264, 100%, 61%));
+    height: 60%;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    
+}
+
+.middle-design{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+.middle-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 70%;
+    
+}
+
+
+.phone-container{
+    width: 350px;
+    background-color: #fff;
+    height: 680px;
+    border-radius: 35px;
+    padding: 10px;
+    box-shadow: 0 0 15px hsl(206, 6%, 79%);
+    
+}
+
+
+.top-phone{
+    width: 60%;
+    background-color: #fff;
+    margin-bottom: -5px;
+    margin: 0 auto;
+    height: 25%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+/*All the top phone designs goes here*/
+
+.top-chat{
+    background-image: linear-gradient( hsl(293, 100%, 63%) , hsl(264, 100%, 61%));
+    border-radius: 20px;
+    width: 100%;
+    height: 16%;
+}
+
+
+.top-chat-buttom-part{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.top-chat-prof{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding-left: 8px;
+}
+
+
+.top-chat-prof button{
+    width: 30px;
+    margin-right: 5px;
+    background-image: linear-gradient( hsl(293, 100%, 63%) , hsl(264, 100%, 61%));
+    
+    border: none;
+}
+
+.top-chat-prof img{
+    width: 40px;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+
+.top-chat-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    width: 50%;
+}
+
+
+
+.samuel{
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 5px;
+
+}
+
+.avalable{
+    font-size: 0.7rem;
+    color: #fff;
+}
+
+
+.top-chat-side-btn{
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+
+
+
+
+.chat-background{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+
+.defination{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    padding: 25px;
+
+}
+
+
+.defination h1{
+    font-size: 2rem;
+    color: hsl(271, 36%, 24%);
+}
+
+
+.defination p{
+    font-size: 1rem;
+    color: hsl(270, 7%, 64%);
+}
+
+
+
+
+
+
+
+
+
+.right-design{
+    width: 40%;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: -3;
+    
+    
+}
+
+
+
+.nice-pink{
+    width: 100%;
+    background-color: hsl(270, 20%, 96%);
+    height: 70%;
+    border-top-right-radius: 1px;
+    border-top-left-radius: 250px;
+
+}
+
+
+.generall-background{
+    background-color: hsl(270, 20%, 96%);
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+
+
+
+/*chats go here*/
+
+
+.first-two{
+     width: 100%;
+     padding: 5px 0;
+}
+
+
+.first{
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    border-bottom-left-radius: 4px;
+    margin: 5px 0;
+    font-size: 14px;
+    background-color: hsl(288, 100%, 93%);
+    color: hsl(276, 55%, 52%);
+}
+
+
+
+.first-three{
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+
+.dog-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 0;
+    width: 60%;
+    align-self: flex-end;
+}
+
+
+.dog-images img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+
+
+.third{
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    border-bottom-right-radius: 4px;
+    margin: 5px 0;
+    font-size: 14px;
+    align-self: flex-end;
+    background-color: #fff;
+}
+
+
+.forth{
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+    border-bottom-right-radius: 4px;
+    margin: 5px 0;
+    font-size: 14px;
+    align-self: flex-end;
+    background-color: #fff;
+}
+
+
+.first-three-messageBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.price{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    
+    padding: 10px 0;
+    border-radius: 20px;
+    border-bottom-left-radius: 4px;
+    margin-bottom: 5px;
+    align-items: center;
+    background-image: linear-gradient( to right, hsl(293, 100%, 63%) , hsl(264, 100%, 61%));
+
+}
+
+
+.price div{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+
+.timing{
+    margin-left: 15px;
+    color: #fff;
+}
+
+.salary-1{
+    margin-left: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.salary-2{
+    margin-left: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.buttom-part{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+
+.input-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.input{
+    font-size: 16px;
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 3px 5px;
+    border: none;
+}
+
+.input::placeholder{
+    font-size: 15px;
+    background-color: #fff;
+    
+}
+
+
+.sender{
+    margin-left: -36px;
+    border-radius: 25px;
+    width: 35px;
+    border: none;
+    background-color:hsl(271, 36%, 24%);
+}
+
+.last{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    .middle-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .phone-container{
+        width: 300px;
+        height: 700px;
+        margin-top: 100px;
+        margin-bottom:5px;
+    }
+
+    .left-design{
+        width: 100%;
+    }
+
+    
+
+    .defination{
+        padding: 0;
+        
+    }
+
+    .defination h1{
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .defination p{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 593px) {
+    .defination{
+        width: 90%;
+        margin-top: 50px;
+    }
+}
